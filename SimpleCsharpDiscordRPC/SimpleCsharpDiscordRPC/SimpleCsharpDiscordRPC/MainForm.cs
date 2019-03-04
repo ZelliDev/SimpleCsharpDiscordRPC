@@ -29,11 +29,10 @@ namespace SimpleCsharpDiscordRPC
         {
             client = new DiscordRpcClient(tb_ClientID.Text);
 
-            //Set the logger
+            
             client.Initialize();
 
-            //Set the rich presence
-            //Call this as many times as you want and anywhere in your code.
+          
             client.SetPresence(new RichPresence()
             {
                 Details = tb_details.Text,
