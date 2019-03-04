@@ -19,11 +19,6 @@ namespace SimpleCsharpDiscordRPC
             InitializeComponent();
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
         
         private void btn_send_Click(object sender, EventArgs e)
         {
